@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: a3a90496b5a8a95448ce18a8c3a9621a
+timeCreated: 1515743469
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: FullBodyIK
+    100002: FullBodyIK (2)
+    100004: Goal
+    100006: Goal (2)
+    100008: Group Locator
+    100010: Knight
+    100012: Locator
+    100014: Locator_Leg_L
+    100016: Locator_Leg_R
+    100018: Root
+    100020: Shadow
+    100022: Skeleton_Arm_L
+    100024: Skeleton_Arm_R
+    100026: Skeleton_Foot_L
+    100028: Skeleton_Foot_R
+    100030: Skeleton_ForeArm_L
+    100032: Skeleton_ForeArm_R
+    100034: Skeleton_Hand_L
+    100036: Skeleton_Hand_R
+    100038: Skeleton_Head
+    100040: Skeleton_Leg_L
+    100042: Skeleton_Leg_R
+    100044: Skeleton_Root
+    100046: Skeleton_Spine01
+    100048: Skeleton_Spine02
+    100050: Skeleton_UpperLeg_L
+    100052: Skeleton_UpperLeg_R
+    100054: Sword02
+    100056: Texture Group
+    100058: UpVector_Leg_L
+    100060: UpVector_Leg_R
+    100062: //RootNode
+    400000: FullBodyIK
+    400002: FullBodyIK (2)
+    400004: Goal
+    400006: Goal (2)
+    400008: Group Locator
+    400010: Knight
+    400012: Locator
+    400014: Locator_Leg_L
+    400016: Locator_Leg_R
+    400018: Root
+    400020: Shadow
+    400022: Skeleton_Arm_L
+    400024: Skeleton_Arm_R
+    400026: Skeleton_Foot_L
+    400028: Skeleton_Foot_R
+    400030: Skeleton_ForeArm_L
+    400032: Skeleton_ForeArm_R
+    400034: Skeleton_Hand_L
+    400036: Skeleton_Hand_R
+    400038: Skeleton_Head
+    400040: Skeleton_Leg_L
+    400042: Skeleton_Leg_R
+    400044: Skeleton_Root
+    400046: Skeleton_Spine01
+    400048: Skeleton_Spine02
+    400050: Skeleton_UpperLeg_L
+    400052: Skeleton_UpperLeg_R
+    400054: Sword02
+    400056: Texture Group
+    400058: UpVector_Leg_L
+    400060: UpVector_Leg_R
+    400062: //RootNode
+    2100000: Shadow
+    2100002: Face
+    2100004: Bougu
+    2100006: Sword02
+    2300000: Shadow
+    3300000: Shadow
+    4300000: Shadow
+    4300002: Knight
+    4300004: Sword02
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Knight
+    13700002: Sword02
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
