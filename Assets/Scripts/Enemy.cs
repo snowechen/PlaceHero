@@ -23,6 +23,9 @@ public class Enemy : MonoBehaviour {
     private int damage;
 
     [SerializeField]
+    private float attackSpeed;
+
+    [SerializeField]
     private GameObject Coin;
     public void Init(int turn,int lv)
     {
@@ -57,9 +60,9 @@ public class Enemy : MonoBehaviour {
     {
         while (isalive && target.IsAlive)
         {
+            yield return new WaitForSeconds(attackSpeed);
             anim.SetTrigger("Attack");
-            target.Damage(damage);
-            yield return new WaitForSeconds(2);
+            
         }
         if (!target.IsAlive) Dead(0,false);
     }
@@ -89,11 +92,10 @@ public class Enemy : MonoBehaviour {
 
     void Dead(float t,bool drop)
     {
-        if (drop)
-        {
-            target.Price += level * 10;
-            Instantiate(Coin, transform.position, Quaternion.LookRotation(Vector3.up));
-        }
+        //if (drop)
+        //{
+            
+        //}
         isalive = false;
         anim.SetBool("Dead", true);
         Destroy(gameObject, t);
@@ -112,4 +114,20 @@ public class Enemy : MonoBehaviour {
             StartCoroutine(Attack());
         }
     }
+
+    public void OnEvent(string key)
+    {
+        Debug.Log("EnemyEvent: "+key);
+        switch (key)
+        {
+            case "Dead":
+                target.Price += level * 10;
+                Instantiate(Coin, transform.position, Quaternion.LookRotation(Vector3.up));
+                break;
+            case "Attack":
+                target.Damage(damage);
+                break;
+        }
+    }
+    
 }

@@ -19,7 +19,7 @@ public class player_data
 
 
     public int weapon_lv;
-    public int weapon_exp;
+    public float weapon_exp;
     public int weapon_nextexp { get { return (((int)Mathf.Pow((weapon_lv - 1), 3)) + 15) / 5 * ((weapon_lv - 1) * 2 + 20) + (10 - ((((int)Mathf.Pow((weapon_lv - 1), 3)) + 15) / 5 * ((weapon_lv - 1) * 2 + 20) % 10)) + (weapon_lv - 1) * 30; } }
     public int weapon_nextprice { get { return weapon_lv * 2 + 20; } }
     public float weapon_upexp { get { return (weapon_nextexp * 0.1f); } }
@@ -73,7 +73,16 @@ public class Player : MonoBehaviour {
         nextExp = (((int)Mathf.Pow((level - 1), 3)) + 15) / 5 * ((level - 1) * 2 + 20) + (10 - ((((int)Mathf.Pow((level - 1), 3)) + 15) / 5 * ((level - 1) * 2 + 20) % 10)) + (level - 1) * 30;
         StartCoroutine(Info_Updata());
     }
-	
+
+    private void Update()
+    {
+#if UNITY_EDITOR
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Price += 100;
+        }
+#endif
+    }
     public void start()
     {
         anim.SetBool("Start",true);
@@ -108,7 +117,7 @@ public class Player : MonoBehaviour {
     public void Damage(int damage)
     {
         int d = damage - data.Def;
-        Debug.Log(d);
+        Debug.Log("damage:"+d);
         if (d > 0) currHP -= d;
         else currHP -= 1;
         anim.SetTrigger("Damage");
@@ -143,7 +152,7 @@ public class Player : MonoBehaviour {
                     anim.SetTrigger("Attack2");
                     break;
             }
-            target.Damage(Random.Range(data.minStr, data.maxStr));
+            
             yield return new WaitForSeconds(1);
         }
         if (isalive)
@@ -176,20 +185,25 @@ public class Player : MonoBehaviour {
         }
     }
 
+    public void AttackEvent()
+    {
+        Debug.Log("attackEvent:");
+        target.Damage(Random.Range(data.minStr, data.maxStr));
+    }
+
     public void HpPlus()
     {
         int lossHP = maxHP - currHP;
 
-        if(Price >= lossHP * 10)
+        if(Price >= lossHP)
         {
-            Price -= lossHP * 10;
+            Price -= lossHP;
             currHP += lossHP;
         } 
         else
         {
-            int cure = Price / 10;
-            Price -= cure * 10;
-            currHP += cure;
+            currHP += Price;
+            Price = 0;
         }
        
     }

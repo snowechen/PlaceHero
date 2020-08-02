@@ -20,7 +20,7 @@ public class stageCollider : MonoBehaviour {
         if (other.tag == "Player")
         {
             StageController.instance.mapUpdate();
-            Debug.Log("进入");
+            
         }
     }
     

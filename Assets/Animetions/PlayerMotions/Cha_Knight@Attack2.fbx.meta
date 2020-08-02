@@ -1,90 +1,242 @@
 fileFormatVersion: 2
 guid: 8be87a1116a063044916a889edbcec66
-timeCreated: 1516157162
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: FullBodyIK
-    100004: FullBodyIK (2)
-    100006: Goal
-    100008: Goal (2)
-    100010: Group Locator
-    100012: Knight
-    100014: Locator
-    100016: Locator_Leg_L
-    100018: Locator_Leg_R
-    100020: Root
-    100022: Shadow
-    100024: Skeleton_Arm_L
-    100026: Skeleton_Arm_R
-    100028: Skeleton_Foot_L
-    100030: Skeleton_Foot_R
-    100032: Skeleton_ForeArm_L
-    100034: Skeleton_ForeArm_R
-    100036: Skeleton_Hand_L
-    100038: Skeleton_Hand_R
-    100040: Skeleton_Head
-    100042: Skeleton_Leg_L
-    100044: Skeleton_Leg_R
-    100046: Skeleton_Root
-    100048: Skeleton_Spine01
-    100050: Skeleton_Spine02
-    100052: Skeleton_UpperLeg_L
-    100054: Skeleton_UpperLeg_R
-    100056: Sword02
-    100058: Texture Group
-    100060: UpVector_Leg_L
-    100062: UpVector_Leg_R
-    400000: //RootNode
-    400002: FullBodyIK
-    400004: FullBodyIK (2)
-    400006: Goal
-    400008: Goal (2)
-    400010: Group Locator
-    400012: Knight
-    400014: Locator
-    400016: Locator_Leg_L
-    400018: Locator_Leg_R
-    400020: Root
-    400022: Shadow
-    400024: Skeleton_Arm_L
-    400026: Skeleton_Arm_R
-    400028: Skeleton_Foot_L
-    400030: Skeleton_Foot_R
-    400032: Skeleton_ForeArm_L
-    400034: Skeleton_ForeArm_R
-    400036: Skeleton_Hand_L
-    400038: Skeleton_Hand_R
-    400040: Skeleton_Head
-    400042: Skeleton_Leg_L
-    400044: Skeleton_Leg_R
-    400046: Skeleton_Root
-    400048: Skeleton_Spine01
-    400050: Skeleton_Spine02
-    400052: Skeleton_UpperLeg_L
-    400054: Skeleton_UpperLeg_R
-    400056: Sword02
-    400058: Texture Group
-    400060: UpVector_Leg_L
-    400062: UpVector_Leg_R
-    2100000: Shadow
-    2100002: Face
-    2100004: Bougu
-    2100006: Sword02
-    2300000: Shadow
-    3300000: Shadow
-    4300000: Shadow
-    4300002: Knight
-    4300004: Sword02
-    7400000: Attack2
-    9500000: //RootNode
-    13700000: Knight
-    13700002: Sword02
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: FullBodyIK
+  - first:
+      1: 100004
+    second: FullBodyIK (2)
+  - first:
+      1: 100006
+    second: Goal
+  - first:
+      1: 100008
+    second: Goal (2)
+  - first:
+      1: 100010
+    second: Group Locator
+  - first:
+      1: 100012
+    second: Knight
+  - first:
+      1: 100014
+    second: Locator
+  - first:
+      1: 100016
+    second: Locator_Leg_L
+  - first:
+      1: 100018
+    second: Locator_Leg_R
+  - first:
+      1: 100020
+    second: Root
+  - first:
+      1: 100022
+    second: Shadow
+  - first:
+      1: 100024
+    second: Skeleton_Arm_L
+  - first:
+      1: 100026
+    second: Skeleton_Arm_R
+  - first:
+      1: 100028
+    second: Skeleton_Foot_L
+  - first:
+      1: 100030
+    second: Skeleton_Foot_R
+  - first:
+      1: 100032
+    second: Skeleton_ForeArm_L
+  - first:
+      1: 100034
+    second: Skeleton_ForeArm_R
+  - first:
+      1: 100036
+    second: Skeleton_Hand_L
+  - first:
+      1: 100038
+    second: Skeleton_Hand_R
+  - first:
+      1: 100040
+    second: Skeleton_Head
+  - first:
+      1: 100042
+    second: Skeleton_Leg_L
+  - first:
+      1: 100044
+    second: Skeleton_Leg_R
+  - first:
+      1: 100046
+    second: Skeleton_Root
+  - first:
+      1: 100048
+    second: Skeleton_Spine01
+  - first:
+      1: 100050
+    second: Skeleton_Spine02
+  - first:
+      1: 100052
+    second: Skeleton_UpperLeg_L
+  - first:
+      1: 100054
+    second: Skeleton_UpperLeg_R
+  - first:
+      1: 100056
+    second: Sword02
+  - first:
+      1: 100058
+    second: Texture Group
+  - first:
+      1: 100060
+    second: UpVector_Leg_L
+  - first:
+      1: 100062
+    second: UpVector_Leg_R
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: FullBodyIK
+  - first:
+      4: 400004
+    second: FullBodyIK (2)
+  - first:
+      4: 400006
+    second: Goal
+  - first:
+      4: 400008
+    second: Goal (2)
+  - first:
+      4: 400010
+    second: Group Locator
+  - first:
+      4: 400012
+    second: Knight
+  - first:
+      4: 400014
+    second: Locator
+  - first:
+      4: 400016
+    second: Locator_Leg_L
+  - first:
+      4: 400018
+    second: Locator_Leg_R
+  - first:
+      4: 400020
+    second: Root
+  - first:
+      4: 400022
+    second: Shadow
+  - first:
+      4: 400024
+    second: Skeleton_Arm_L
+  - first:
+      4: 400026
+    second: Skeleton_Arm_R
+  - first:
+      4: 400028
+    second: Skeleton_Foot_L
+  - first:
+      4: 400030
+    second: Skeleton_Foot_R
+  - first:
+      4: 400032
+    second: Skeleton_ForeArm_L
+  - first:
+      4: 400034
+    second: Skeleton_ForeArm_R
+  - first:
+      4: 400036
+    second: Skeleton_Hand_L
+  - first:
+      4: 400038
+    second: Skeleton_Hand_R
+  - first:
+      4: 400040
+    second: Skeleton_Head
+  - first:
+      4: 400042
+    second: Skeleton_Leg_L
+  - first:
+      4: 400044
+    second: Skeleton_Leg_R
+  - first:
+      4: 400046
+    second: Skeleton_Root
+  - first:
+      4: 400048
+    second: Skeleton_Spine01
+  - first:
+      4: 400050
+    second: Skeleton_Spine02
+  - first:
+      4: 400052
+    second: Skeleton_UpperLeg_L
+  - first:
+      4: 400054
+    second: Skeleton_UpperLeg_R
+  - first:
+      4: 400056
+    second: Sword02
+  - first:
+      4: 400058
+    second: Texture Group
+  - first:
+      4: 400060
+    second: UpVector_Leg_L
+  - first:
+      4: 400062
+    second: UpVector_Leg_R
+  - first:
+      21: 2100000
+    second: Shadow
+  - first:
+      21: 2100002
+    second: Face
+  - first:
+      21: 2100004
+    second: Bougu
+  - first:
+      21: 2100006
+    second: Sword02
+  - first:
+      23: 2300000
+    second: Shadow
+  - first:
+      33: 3300000
+    second: Shadow
+  - first:
+      43: 4300000
+    second: Shadow
+  - first:
+      43: 4300002
+    second: Knight
+  - first:
+      43: 4300004
+    second: Sword02
+  - first:
+      74: 7400000
+    second: Attack2
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Knight
+  - first:
+      137: 13700002
+    second: Sword02
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -101,6 +253,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -112,6 +265,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack2
       takeName: mixamo.com
+      internalID: 0
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
@@ -132,7 +286,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.5652174
+        functionName: AttackEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -143,17 +304,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -165,10 +332,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -178,14 +348,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
